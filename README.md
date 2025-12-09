@@ -1,6 +1,1 @@
-
-
-# hello-world
-especializacion analisis de datos de ricardo castro
-
-Soy Ricardo Castro de Argentina, tengo 36 años, me gusta jugar al futbol y usar el ordenador para estar al dia de todo lo que acontese en el mundo y las nuevas tendencias en varios ambitos.
+<img width="1088" height="716" alt="Captura de pantalla 2025-12-09 114147" src="https://github.com/user-attachments/assets/a81c7581-41fe-4b65-9f19-585665721d5e" />
