@@ -84,11 +84,10 @@ ORDER BY media_compras DESC;
 -- Filtra la vista VistaMarketing per a mostrar només les companyies que tenen el seu país de residència en "Germany" -- 
 
 
-SELECT company_name, phone, country, AVG(amount) as media_compras
-FROM transaction JOIN company ON company_id = company.id
+
+SELECT * FROM vistamarketing
 WHERE country = "Germany"
-GROUP BY company_id
-ORDER BY media_compras DESC;
+;
 
 -- NIVEL 3 --
 -- EJERCICIO 1 -- 
