@@ -226,7 +226,7 @@ GROUP BY iban;
 -- si almenys una no és rebutjada aleshores és actiu. Partint d’aquesta taula respon:
 
 CREATE TABLE credit_card_state AS
-SELECT subquery.card_id AS card_id, CASE WHEN SUM(subquery.declined) > 0 THEN 'inactivo'
+SELECT subquery.card_id AS card_id, CASE WHEN SUM(subquery.declined) = 3 THEN 'inactivo'
 									ELSE 'activo'
 									END AS state
 FROM (SELECT card_id, timestamp, declined, ROW_NUMBER() OVER (PARTITION BY card_id ORDER BY timestamp DESC) AS rowi
