@@ -270,8 +270,7 @@ CROSS JOIN JSON_TABLE(
 					CONCAT('["', REPLACE(transactions.product_ids, ',', '","'), '"]'),  -- json table para cada * incluir $ 
 					'$[*]' COLUMNS (product_id VARCHAR(20) PATH '$')
 					) AS lista_ids
-WHERE transactions.product_ids IS NOT NULL
-  AND transactions.product_ids <> '';
+;
 
 
 SELECT * FROM transaction_product;
