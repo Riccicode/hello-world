@@ -1,1 +1,1 @@
-<img width="1088" height="716" alt="Captura de pantalla 2025-12-09 114147" src="https://github.com/user-attachments/assets/a81c7581-41fe-4b65-9f19-585665721d5e" />
+<img width="1088" height="690" alt="DIAGRAMA SPRINT 4" src="https://github.com/user-attachments/assets/c0358ea8-8a13-4a5f-b245-db79d9441abc" />
